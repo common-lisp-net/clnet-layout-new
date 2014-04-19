@@ -7,6 +7,8 @@ Repository for development of clnet's new web design
 
 This is currently one webpage with non-functioning links to demonstrate the new design I'm proposing for clnet.
 
+It is written with sbcl on top of Hunchentoot.
+
 # Instructions
 
 Run sbcl from the main directory and load "runserver.lisp": 
