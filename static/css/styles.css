@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url(http://themes.googleusercontent.com/static/fonts/ubuntumono/v4/ViZhet7Ak-LRXZMXzuAfkYbN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Voces';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Voces'), local('Voces-Regular'), url(http://themes.googleusercontent.com/static/fonts/voces/v2/ePr7eRI28zZaOtQ8CcT7rA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Varela Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Varela Round'), local('VarelaRound-Regular'), url(http://themes.googleusercontent.com/static/fonts/varelaround/v4/APH4jr0uSos5wiut5cpjrnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    color: #333; 
+    background: url("../imgs/lotusflower.png") no-repeat fixed right bottom; 
+}
+
+h2 {
+    font-family: 'Varela Round', sans-serif; 
+    font-size: 45pt;
+    color: #006f00; 
+}
+p {
+    font-family: 'Helvetica', sans-serif;
+    line-height: 130%;
+    font-weight: 100;
+    font-size: 13pt;
+    padding-top: 10px;
+}
+
+.title { 
+    font-family: 'Varela Round', sans-serif; 
+    font-size: 30pt;
+}
+hr {
+    color: #fff;
+    width: 70%;
+}
+a {
+    text-decoration: none; 
+}
+.menu-link {
+    color: #333;
+    font-size: 20pt; 
+    font-family: 'Varela Round', sans-serif;
+    line-height: 150%;
+}
+.menu-link:hover {
+    color: #999;
+}
+
+#sidebar {
+    background-color: #dfd; 
+    width: 20%;
+    display: inline-block; 
+    min-height: 100%; 
+    position: fixed;
+    text-align: center; 
+    padding: 15px; 
+}
+
+#main {
+    box-sizing: border-box;
+    margin-left: 20%;
+    float: right; 
+    width: 75%;
+    display: inline-block; 
+    padding-top: 70px;
+    background: rgba(255,255,255,0.5);
+    min-height: 100%; 
+}
+#main-inner {
+    padding-right: 300px;
+}
+
+.menu {
+    display: none; 
+}
+.link {
+    text-decoration: none; 
+    font-family: "Helvetica";
+    line-height: 120%; 
+    font-size: 12pt; 
+    color: #006f00; 
+}
+.link:hover {
+    color: #999; 
+}

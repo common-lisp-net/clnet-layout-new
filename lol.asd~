@@ -1,0 +1,16 @@
+;;;; -*- Mode: Lisp; Syntax: ANSI-Common-Lisp; Base: 10 -*-
+
+(defpackage #:lol-asd
+  (:use :cl :asdf))
+(in-package :lol-asd)
+
+(defsystem lol
+  :name "lol"
+  :version "0.0.0"
+  :maintainer "CHERYL THE GREAT"
+  :author "CHERYL THE GREAT"
+  :description "Lisp on LSD"
+  :long-description "Little Lisp web framework based on Hunchentoot"
+
+  :components ((:file "main" :depends-on ("config"))
+	       (:file "config")))
